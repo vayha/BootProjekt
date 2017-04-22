@@ -7,14 +7,34 @@
 
 body {
 	margin: auto;
-	font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f7f7f7;
+/* kolor dla sekcji portfolio*/
 }
 
+h1, .button, .menu {
+font-family: 'Montserrat', sans-serif;
+}
 
+h1 {
+    color: #333333;
+}
 
+p {
+    font-family: 'Droid Serif', serif;
+    color: #777777; 
+}
 
+.button {
+    background-color: blue;
+}
+.button:hover {
+    background-color: #0ed8d6; 
+}
 
-
+.media {
+    color: #222222;
+}
 
 
 
