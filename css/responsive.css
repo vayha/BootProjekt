@@ -5,88 +5,12 @@
 	}
 
 	#main-nav ul .menu-item a {
-		color: #1ac056;
+		color: #333333;
 	}
 	
 	#main-nav ul .menu-item a:hover {
-		color: #291f1a;
+		color: #0ed8d6;
 	}
-	
-	
-	
-	/*zmiana szer, wys obrazka - o mnie*/ 
-	.col-1-2 {
-		width: 100%;
-	}
-	
-	#about figure .about-img {
-		max-width: 100%;
-		max-height: none;
-		/*dopasowanie obrazka przy zmniejszaniu rozdz, bez rozjeżdżania*/}
-	
-	
-	#skills .skills-icons figure {
-		margin: 0;
-		width: 49%;
-		margin-top: 30px;
-	}
-	
-	#portfolio .portfolio-item {
-		width: 100%;
-		max-height: none;
-	}
-	#contact,
-	#contact h2 {
-		text-align: center;
-	}
-}
-
-
-
-/*pomiędzy rozdz. 2 obrazki u góry - jeden na dole*/
-@media (min-width:768px) and (max-width:1170px) {
-
-	#portfolio .portfolio-item {
-		
-		width: 50%; 
-	}
-	/*2 obrazki*/
-	
-	#portfolio .portfolio-item:last-child {
-		
-		width: 100%; 
-	}
-	/*trzeci obrazek*/
-	
-	
-	
-}
-
-
-
-
-
-
-
-/*najmniejsze rozdz*/
-@media (max-width: 480px) {
-	#main-header .header-caption {
-		font-size: 60%;
-	}
-	  
-	
-	
-	/*nagłowek w formularzu na środku*/
-	#contact .col-1-2 h2 {
-		width: 100%;
-		text-align: center;
-	}  
-	
-	#portfolio {
-		padding: 40px 0;
-	}
-
-	#contact .social-icons a {
-		margin: 0;
-	}
-}
+    #logo {
+        color: #333333;
+    }

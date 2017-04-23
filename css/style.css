@@ -6,35 +6,219 @@
 }
 
 body {
-	margin: auto;
+	width: 100%;
+    height: 100%;
     font-family: 'Roboto Slab', serif;
-    background-color: #f7f7f7;
+   
 /* kolor dla sekcji portfolio*/
 }
+#portfolio {
+     background-color: #f7f7f7;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
 
-h1, .button, .menu {
-font-family: 'Montserrat', sans-serif;
+#main-nav {
+    background-color: transparent;
+    border: none;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 
 h1 {
     color: #333333;
+    font-size: 2.8em;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
+
+h2 {
+    color: #333333;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: 'Droid Serif', serif;
+    padding-bottom: 30px;
+}
+
 
 p {
     font-family: 'Droid Serif', serif;
-    color: #777777; 
+    color: #777777;
+    }
+
+/*     ----------logo ---------*/
+#logo {
+    font-size: 1.8em;
+    padding-top: 10px;
+    margin-left: 50px;
+    color: white;
+}
+/*  ======= NAWIGACJA======= */
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #0ed8d6;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.button {
-    background-color: blue;
-}
-.button:hover {
-    background-color: #0ed8d6; 
+/*=== NAWIGACJA SCROLL====*/
+#main-nav.scroll {
+	background-color: rgba(39, 146, 160, 0.56);
 }
 
-.media {
-    color: #222222;
+#main-nav.scroll ul .menu-item a {
+	color: #fff;
+}
+
+#main-nav.scroll ul .menu-item a:hover {
+	color: #0ed8d6;
 }
 
 
+/* ------  OBRAZEK W HEADERZE --------*/
+#main-header {
+    background-image: linear-gradient(rgba(82, 82, 122, 0.5), rgba(82, 82, 122, 0.5)), url(../img/header/pictures_on_the_wall.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 
+/* -------  TEKST na obrazku w headerze 
+uawga top 50 i translate -50% Y daje WYŚRODKOWANIE ---------------------*/
+
+#main-header .header-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-header .header-caption h2 {
+    font-size: 2em;
+    font-weight: 300;
+    color: white;
+    font-family: 'Droid Serif', serif;
+}
+
+#main-header .header-caption h1 {
+    font-size: 4em;
+    font-weight: 300;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+/*============service================*/
+.service, section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*ikony kolor + animacja */
+.fa-stack-2x {
+    color: #0ed8d6;
+}
+h3 {
+    color: #333333;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    }
+.fas {
+    transition: 1s all;
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    background-color: #0ed8d6;
+     
+}
+.fas:hover {
+    transform: rotate(360deg);
+    color: #0ed8d6;
+    background-color: #f7f7f7;
+    
+}
+/*=====PORTFOLIO OBRAZEK=====*/
+
+/*zewnetrzny div*/
+.outer {
+    background-color: white;
+}
+.inner {
+    /*width: 300px;*/
+    height: 300px;
+    overflow: hidden;
+}
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s all;
+}
+.image:hover {
+    background-position: center;
+    transform: scale(1.5);
+}
+
+.image-1 {    
+background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+.image-2 {    
+background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+.image-3 {    
+background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+.image-4 {    
+background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+.image-5 {    
+background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+.image-6 {    
+background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+/*-----------maska---------*/
+
+.mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s;
+    z-index: 1;
+    background-color: rgba(14,216,214, 0.85);
+    opacity: 0;
+}
+
+.mask:hover {
+    opacity: 1;
+}
+
+.icon {
+    font-size: 50px;
+    color: white;
+    line-height: 300px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;  
+}
+
+.img-circle {
+    max-height: 230px;
+}

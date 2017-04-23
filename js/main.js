@@ -17,16 +17,12 @@ $(function(){
 		   }
 	});
 	
-	/*smooth scroll*/	
-	
 	$(document).on('click', 'a[href^="#"]', function(event){
 		event.preventDefault();
 		
 		var menuHeight = $('#main-nav').height();
 		//sprawdzi jaka jest wysokość menu
-		
-		
-		console.log($($.attr(this, 'href')).offset().top);
+
 		
 		$('html, body').animate({ //w atrybutach pobierz wart. elementu dla tego hrefa
 			scrollTop: $( $.attr(this, 'href') ).offset().top - menuHeight
