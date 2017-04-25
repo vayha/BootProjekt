@@ -12,11 +12,6 @@ body {
    
 /* kolor dla sekcji portfolio*/
 }
-#portfolio {
-     background-color: #f7f7f7;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
 
 #main-nav {
     background-color: transparent;
@@ -41,22 +36,34 @@ h2 {
     font-size: 1em;
     font-weight: 300;
     font-family: 'Droid Serif', serif;
-    padding-bottom: 30px;
-}
+    padding-bottom: 20px;
+    }
 
+h3 {
+    color: #333333;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0px;
+    }
 
 p {
-    font-family: 'Droid Serif', serif;
     color: #777777;
     }
 
-/*     ----------logo ---------*/
+/* ---------logo ---------*/
 #logo {
     font-size: 1.8em;
     padding-top: 10px;
     margin-left: 50px;
-    color: white;
+    color: #fff;
+    font-family: 'Droid Serif', serif;
 }
+#logo.scroll {
+    color: #fff;
+}
+
+
 /*  ======= NAWIGACJA======= */
 .navbar-default .navbar-nav>li>a {
     color: white;
@@ -110,6 +117,7 @@ uawga top 50 i translate -50% Y daje WYŚRODKOWANIE ---------------------*/
     font-weight: 300;
     color: white;
     font-family: 'Droid Serif', serif;
+    padding: 0;
 }
 
 #main-header .header-caption h1 {
@@ -118,9 +126,10 @@ uawga top 50 i translate -50% Y daje WYŚRODKOWANIE ---------------------*/
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
-/*============service================*/
+/*============SEKCJA SERVICE================*/
 .service, section {
     margin-top: 30px;
     margin-bottom: 50px;
@@ -130,12 +139,7 @@ uawga top 50 i translate -50% Y daje WYŚRODKOWANIE ---------------------*/
 .fa-stack-2x {
     color: #0ed8d6;
 }
-h3 {
-    color: #333333;
-    font-size: 1.5em;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    }
+
 .fas {
     transition: 1s all;
     border: 1px solid #0ed8d6;
@@ -149,12 +153,19 @@ h3 {
     background-color: #f7f7f7;
     
 }
-/*=====PORTFOLIO OBRAZEK=====*/
+/*-============SEKCJA PORTFOLIO ==========-*/
+#portfolio {
+    background-color: #f7f7f7;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+/*------ portfolio obrazek -------/
 
 /*zewnetrzny div*/
 .outer {
-    background-color: white;
-}
+    background-color: #fff;
+    }
+/* wewnetrzny div*/
 .inner {
     /*width: 300px;*/
     height: 300px;
@@ -191,6 +202,7 @@ background-image: url(../img/portfolio/house_with_blue_doors.jpg);
 .image-6 {    
 background-image: url(../img/portfolio/typing_on_laptop.jpg);
 }
+
 /*-----------maska---------*/
 
 .mask {
@@ -207,6 +219,7 @@ background-image: url(../img/portfolio/typing_on_laptop.jpg);
     opacity: 1;
 }
 
+/*  ikona w masce  */
 .icon {
     font-size: 50px;
     color: white;
@@ -219,6 +232,30 @@ background-image: url(../img/portfolio/typing_on_laptop.jpg);
     margin: auto;  
 }
 
+/*====== SEKCJA TEAM=====*/
+
+/*- obrazek okragly z bootstrapa-*/
+
+
 .img-circle {
-    max-height: 230px;
+    max-height: 250px;
+    transform: scale(1);
+
+}
+/* --ikonki--*/
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #333333;
+    border-radius: 50%;
+    line-height: 50px;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.social-icons a:hover {
+    background-color: #0ed8d6;
 }
