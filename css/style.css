@@ -21,6 +21,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     transition: all 0.5s;
+    width: 200px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 0px;
 }
 .btn:hover {
     background-color: #0ed8d6;
@@ -56,14 +60,14 @@ p {
     }
 
 /* ---------logo ---------*/
-#logo {
+p#logo {
     font-size: 1.8em;
     padding-top: 10px;
     margin-left: 50px;
     color: #fff;
     font-family: 'Droid Serif', serif;
 }
-#logo.scroll {
+p#logo.scroll {
     color: #fff;
 }
 
@@ -171,7 +175,6 @@ uawga top 50 i translate -50% Y daje WYŚRODKOWANIE ---------------------*/
     }
 /* wewnetrzny div*/
 .inner {
-    /*width: 300px;*/
     height: 300px;
     overflow: hidden;
 }
@@ -269,3 +272,10 @@ p.space {
     line-height: 200%;
     width: 80wh;
 }
+
+/*==== SEKCJA CONTACT====*/
+#contact {
+}
+
+
+
