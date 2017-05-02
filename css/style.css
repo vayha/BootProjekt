@@ -323,7 +323,6 @@ textarea:focus {
     background-color:rgba(150, 247, 246, 0.88);
     border: rgba(150, 247, 246, 0.88) 1px solid; 
     cursor: pointer;
-    text-transform: none;
 }
 
 /*=========SEKCJA FOOTER========*/
