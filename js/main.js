@@ -4,11 +4,11 @@ $(function(){
     var logo = $('#logo');
 	
 	
-    if(okno.scrollTop() >= 100 ) {
+/*    if(okno.scrollTop() >= 100 ) {
 		logo.addClass('scroll');
 	   } else {
 			logo.removeClass('scroll');
-		   };
+		   };*/
 	
 	okno.scroll(function() {
 		//console.log(okno.scrollTop());

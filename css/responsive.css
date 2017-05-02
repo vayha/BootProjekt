@@ -11,7 +11,7 @@
 	#main-nav ul .menu-item a:hover {
 		color: #0ed8d6;
 	}
-    #logo {
+    #main-nav #logo {
         color: #333333;
     }
 }
