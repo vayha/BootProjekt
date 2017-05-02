@@ -284,6 +284,7 @@ p.space {
     margin-top: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 20px;
 }
 /*-nagłówki-*/
 #contact .row h1, #contact .row h2 {
@@ -322,8 +323,19 @@ textarea:focus {
     background-color:rgba(150, 247, 246, 0.88);
     border: rgba(150, 247, 246, 0.88) 1px solid; 
     cursor: pointer;
+    text-transform: none;
 }
 
+/*=========SEKCJA FOOTER========*/
 
+#footer .container .row h3 {
+    font-size: 1em;
+    font-weight: 500;
+    }
+#footer {
+    margin-bottom: 20px;
+}
+#footer h3 span {
+    margin-left: 20px;
 
-
+}
